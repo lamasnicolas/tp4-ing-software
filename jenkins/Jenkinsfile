@@ -1,0 +1,19 @@
+pipeline {
+    agent an
+
+    stages {
+
+        stage('test') {
+            steps {
+                sh './gradlew test'
+            }
+        }
+
+        stage('build') {
+            steps {
+                sh './gradlew clean'
+                sh './gradlew assemble'
+            }
+        }
+    }
+}
