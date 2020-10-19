@@ -16,3 +16,4 @@ target/*
 _site/
 .mvn
 .gradle/**
+build/*
