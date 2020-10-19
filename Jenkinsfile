@@ -10,6 +10,7 @@ pipeline {
     stage('Test') {
       steps {
         sh './gradlew test'
+        junit(allowEmptyResults: true, testResults: 'test/*.xml')
       }
     }
 
