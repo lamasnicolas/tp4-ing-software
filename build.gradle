@@ -44,6 +44,10 @@ dependencies {
     testImplementation 'org.mockito:mockito-junit-jupiter:3.3.3'
 }
 
+test {
+    useJUnitPlatform()
+}
+
 group = 'org.springframework.samples'
 version = '2.3.0.BUILD-SNAPSHOT'
 description = 'petclinic'
