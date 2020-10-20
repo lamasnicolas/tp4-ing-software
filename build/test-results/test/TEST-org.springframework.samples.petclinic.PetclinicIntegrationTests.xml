@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.samples.petclinic.PetclinicIntegrationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-20T12:16:42" hostname="nicolaslamas-Latitude-7480" time="0.149">
+  <properties/>
+  <testcase name="testFindAll()" classname="org.springframework.samples.petclinic.PetclinicIntegrationTests" time="0.149"/>
+  <system-out><![CDATA[2020-10-20 09:16:35.923  INFO 18118 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [org.springframework.samples.petclinic.PetclinicIntegrationTests], using SpringBootContextLoader
+2020-10-20 09:16:35.928  INFO 18118 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [org.springframework.samples.petclinic.PetclinicIntegrationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-10-20 09:16:35.928  INFO 18118 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.springframework.samples.petclinic.PetclinicIntegrationTests]: PetclinicIntegrationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-10-20 09:16:35.944  INFO 18118 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.PetclinicIntegrationTests
+2020-10-20 09:16:35.966  INFO 18118 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-10-20 09:16:35.968  INFO 18118 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3ced788b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@60bba6b9, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4fb89479, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6c888b94, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3b769fae, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6c57817, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@dd53fea, org.springframework.test.context.event.EventPublishingTestExecutionListener@25a9c1ef, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2aadb11b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7857199, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@230b34ec, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@48463fdb, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@f247aa1, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2301cb65]
+
+
+              |\      _,,,--,,_
+             /,`.-'`'   ._  \-;;,_
+  _______ __|,4-  ) )_   .;.(__`'-'__     ___ __    _ ___ _______
+ |       | '---''(_/._)-'(_\_)   |   |   |   |  |  | |   |       |
+ |    _  |    ___|_     _|       |   |   |   |   |_| |   |       | __ _ _
+ |   |_| |   |___  |   | |       |   |   |   |       |   |       | \ \ \ \
+ |    ___|    ___| |   | |      _|   |___|   |  _    |   |      _|  \ \ \ \
+ |   |   |   |___  |   | |     |_|       |   | | |   |   |     |_    ) ) ) )
+ |___|   |_______| |___| |_______|_______|___|_|  |__|___|_______|  / / / /
+ ==================================================================/_/_/_/
+
+:: Built with Spring Boot :: 2.3.3.RELEASE
+
+
+2020-10-20 09:16:36.107  INFO 18118 --- [    Test worker] o.s.s.p.PetclinicIntegrationTests        : Starting PetclinicIntegrationTests on nicolaslamas-Latitude-7480 with PID 18118 (started by nicolaslamas in /home/nicolaslamas/proyects/tp4-ing-software)
+2020-10-20 09:16:36.110  INFO 18118 --- [    Test worker] o.s.s.p.PetclinicIntegrationTests        : No active profile set, falling back to default profiles: default
+2020-10-20 09:16:37.538  INFO 18118 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-10-20 09:16:37.868  INFO 18118 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 295ms. Found 4 JPA repository interfaces.
+2020-10-20 09:16:39.001  INFO 18118 --- [    Test worker] org.ehcache.core.EhcacheManager          : Cache 'vets' created in EhcacheManager.
+2020-10-20 09:16:39.010  INFO 18118 --- [    Test worker] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=vets
+2020-10-20 09:16:39.022  INFO 18118 --- [    Test worker] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=vets
+2020-10-20 09:16:39.099  INFO 18118 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-20 09:16:39.757  INFO 18118 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-20 09:16:40.038  INFO 18118 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-20 09:16:40.118  INFO 18118 --- [         task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-20 09:16:40.191  INFO 18118 --- [         task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-10-20 09:16:40.253  INFO 18118 --- [         task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-20 09:16:40.478  INFO 18118 --- [         task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-10-20 09:16:41.852  INFO 18118 --- [         task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-20 09:16:41.866  INFO 18118 --- [         task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-20 09:16:42.325  INFO 18118 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoint(s) beneath base path '/actuator'
+2020-10-20 09:16:42.385  INFO 18118 --- [    Test worker] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-10-20 09:16:42.975  INFO 18118 --- [    Test worker] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-10-20 09:16:42.982  INFO 18118 --- [    Test worker] o.s.s.p.PetclinicIntegrationTests        : Started PetclinicIntegrationTests in 7.006 seconds (JVM running for 15.618)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
