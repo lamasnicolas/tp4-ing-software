@@ -6,6 +6,8 @@ plugins {
     id 'java'
     id 'maven-publish'
     id 'org.springframework.boot' version '2.1.9.RELEASE'
+    id 'jacoco'
+    id "org.sonarqube" version "3.0"
 }
 
 repositories {
@@ -21,6 +23,11 @@ repositories {
     maven {
         url = uri('https://repo.spring.io/milestone')
     }
+}
+
+
+jacoco {
+    toolVersion = "0.8.5"
 }
 
 dependencies {
@@ -46,7 +53,14 @@ dependencies {
 
 test {
     useJUnitPlatform()
+    finalizedBy jacocoTestReport // report is always generated after tests run
+
 }
+
+jacocoTestReport {
+    dependsOn test // tests are required to run before generating the report
+}
+
 
 group = 'org.springframework.samples'
 version = '2.3.0.BUILD-SNAPSHOT'
@@ -64,3 +78,19 @@ publishing {
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
 }
+
+sonarqube {
+    properties {
+        property 'sonar.projectName', 'TP5 - Ing de Software'
+    }
+}
+
+jacocoTestReport {
+    reports {
+        xml.enabled true
+        csv.enabled true
+        html.destination file("${buildDir}/jacocoHtml")
+    }
+}
+
+

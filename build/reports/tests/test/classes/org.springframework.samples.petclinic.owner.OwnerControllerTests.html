@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.841s</div>
+<div class="counter">0.623s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,57 +79,57 @@
 </thead>
 <tr>
 <td class="success">testInitCreationForm()</td>
-<td class="success">0.062s</td>
+<td class="success">0.051s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testInitFindForm()</td>
-<td class="success">0.110s</td>
+<td class="success">0.090s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testInitUpdateOwnerForm()</td>
-<td class="success">0.062s</td>
+<td class="success">0.048s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testProcessCreationFormHasErrors()</td>
-<td class="success">0.136s</td>
+<td class="success">0.046s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testProcessCreationFormSuccess()</td>
-<td class="success">0.024s</td>
+<td class="success">0.011s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testProcessFindFormByLastName()</td>
-<td class="success">0.029s</td>
+<td class="success">0.012s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testProcessFindFormNoOwnersFound()</td>
-<td class="success">0.064s</td>
+<td class="success">0.029s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testProcessFindFormSuccess()</td>
-<td class="success">0.084s</td>
+<td class="success">0.054s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testProcessUpdateOwnerFormHasErrors()</td>
-<td class="success">0.117s</td>
+<td class="success">0.168s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testProcessUpdateOwnerFormSuccess()</td>
-<td class="success">0.022s</td>
+<td class="success">0.012s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testShowOwner()</td>
-<td class="success">0.131s</td>
+<td class="success">0.102s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -137,12 +137,12 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>2020-10-20 09:16:34.130  INFO 18118 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [org.springframework.samples.petclinic.owner.OwnerControllerTests], using SpringBootContextLoader
-2020-10-20 09:16:34.130  INFO 18118 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [org.springframework.samples.petclinic.owner.OwnerControllerTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-2020-10-20 09:16:34.131  INFO 18118 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.springframework.samples.petclinic.owner.OwnerControllerTests]: OwnerControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2020-10-20 09:16:34.134  INFO 18118 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.owner.OwnerControllerTests
-2020-10-20 09:16:34.134  INFO 18118 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-2020-10-20 09:16:34.135  INFO 18118 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3b96f66e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1e0a5e67, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3a1798d1, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@474fe8b1, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4be653b0, org.springframework.test.context.transaction.TransactionalTestExecutionListener@753c5cd, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@18404e6, org.springframework.test.context.event.EventPublishingTestExecutionListener@39366e07, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4034d142, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@59d01924, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@785285cc, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@721e9a97, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@14c6eb57, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4d06c9d2]
+<pre>2020-11-06 16:01:21.804  INFO 6109 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [org.springframework.samples.petclinic.owner.OwnerControllerTests], using SpringBootContextLoader
+2020-11-06 16:01:21.811  INFO 6109 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [org.springframework.samples.petclinic.owner.OwnerControllerTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-11-06 16:01:21.812  INFO 6109 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.springframework.samples.petclinic.owner.OwnerControllerTests]: OwnerControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-11-06 16:01:21.831  INFO 6109 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.owner.OwnerControllerTests
+2020-11-06 16:01:21.835  INFO 6109 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-11-06 16:01:21.838  INFO 6109 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@61a254c1, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@570652ed, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@19fe5f52, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@693f2606, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1a4863bc, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7f3cdb22, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@14531f58, org.springframework.test.context.event.EventPublishingTestExecutionListener@44c04c2, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5dc0d274, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@44bce725, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@48999935, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2c97fef0, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@771fca64, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@54398e6d]
 
 
               |\      _,,,--,,_
@@ -159,13 +159,13 @@
 :: Built with Spring Boot :: 2.3.3.RELEASE
 
 
-2020-10-20 09:16:34.164  INFO 18118 --- [    Test worker] o.s.s.p.owner.OwnerControllerTests       : Starting OwnerControllerTests on nicolaslamas-Latitude-7480 with PID 18118 (started by nicolaslamas in /home/nicolaslamas/proyects/tp4-ing-software)
-2020-10-20 09:16:34.165  INFO 18118 --- [    Test worker] o.s.s.p.owner.OwnerControllerTests       : No active profile set, falling back to default profiles: default
-2020-10-20 09:16:34.466  INFO 18118 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-10-20 09:16:34.983  INFO 18118 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2020-10-20 09:16:34.983  INFO 18118 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2020-10-20 09:16:34.994  INFO 18118 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 11 ms
-2020-10-20 09:16:35.010  INFO 18118 --- [    Test worker] o.s.s.p.owner.OwnerControllerTests       : Started OwnerControllerTests in 0.872 seconds (JVM running for 7.646)
+2020-11-06 16:01:21.899  INFO 6109 --- [    Test worker] o.s.s.p.owner.OwnerControllerTests       : Starting OwnerControllerTests on nicolaslamas-Latitude-7480 with PID 6109 (started by nicolaslamas in /home/nicolaslamas/proyects/tp4-ing-software)
+2020-11-06 16:01:21.907  INFO 6109 --- [    Test worker] o.s.s.p.owner.OwnerControllerTests       : No active profile set, falling back to default profiles: default
+2020-11-06 16:01:22.467  INFO 6109 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-06 16:01:23.613  INFO 6109 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-11-06 16:01:23.613  INFO 6109 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-11-06 16:01:23.625  INFO 6109 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 11 ms
+2020-11-06 16:01:23.646  INFO 6109 --- [    Test worker] o.s.s.p.owner.OwnerControllerTests       : Started OwnerControllerTests in 1.797 seconds (JVM running for 26.338)
 </pre>
 </span>
 </div>
@@ -177,7 +177,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.6.1</a> at Oct 20, 2020 9:16:45 AM</p>
+<a href="http://www.gradle.org">Gradle 6.6.1</a> at Nov 6, 2020, 4:01:43 PM</p>
 </div>
 </div>
 </body>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.samples.petclinic.model.ValidatorTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-20T12:16:43" hostname="nicolaslamas-Latitude-7480" time="0.02">
+<testsuite name="org.springframework.samples.petclinic.model.ValidatorTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-06T19:01:36" hostname="nicolaslamas-Latitude-7480" time="0.087">
   <properties/>
-  <testcase name="shouldNotValidateWhenFirstNameEmpty()" classname="org.springframework.samples.petclinic.model.ValidatorTests" time="0.02"/>
+  <testcase name="shouldNotValidateWhenFirstNameEmpty()" classname="org.springframework.samples.petclinic.model.ValidatorTests" time="0.087"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

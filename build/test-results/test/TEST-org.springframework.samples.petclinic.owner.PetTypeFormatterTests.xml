@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.samples.petclinic.owner.PetTypeFormatterTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-10-20T12:16:32" hostname="nicolaslamas-Latitude-7480" time="0.104">
+<testsuite name="org.springframework.samples.petclinic.owner.PetTypeFormatterTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-11-06T19:01:18" hostname="nicolaslamas-Latitude-7480" time="0.248">
   <properties/>
-  <testcase name="shouldThrowParseException()" classname="org.springframework.samples.petclinic.owner.PetTypeFormatterTests" time="0.031"/>
-  <testcase name="testPrint()" classname="org.springframework.samples.petclinic.owner.PetTypeFormatterTests" time="0.069"/>
-  <testcase name="shouldParse()" classname="org.springframework.samples.petclinic.owner.PetTypeFormatterTests" time="0.002"/>
+  <testcase name="shouldThrowParseException()" classname="org.springframework.samples.petclinic.owner.PetTypeFormatterTests" time="0.054"/>
+  <testcase name="testPrint()" classname="org.springframework.samples.petclinic.owner.PetTypeFormatterTests" time="0.185"/>
+  <testcase name="shouldParse()" classname="org.springframework.samples.petclinic.owner.PetTypeFormatterTests" time="0.005"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

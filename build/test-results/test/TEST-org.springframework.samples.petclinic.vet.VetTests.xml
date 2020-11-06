@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.samples.petclinic.vet.VetTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-20T12:16:44" hostname="nicolaslamas-Latitude-7480" time="0.004">
+<testsuite name="org.springframework.samples.petclinic.vet.VetTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-06T19:01:39" hostname="nicolaslamas-Latitude-7480" time="0.008">
   <properties/>
-  <testcase name="testSerialization()" classname="org.springframework.samples.petclinic.vet.VetTests" time="0.004"/>
+  <testcase name="testSerialization()" classname="org.springframework.samples.petclinic.vet.VetTests" time="0.008"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
